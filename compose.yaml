@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=meal_subscription'
+      - 'POSTGRES_PASSWORD=admin1231'
+      - 'POSTGRES_USER=mimir'
+    ports:
+      - '5432'
